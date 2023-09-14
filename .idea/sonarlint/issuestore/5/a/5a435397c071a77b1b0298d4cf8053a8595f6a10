@@ -1,0 +1,13 @@
+
+\
+java:S16113"?Remove the parentheses around the "authorizeRequests" parameter(Äƒ¢‚8Ÿ½’ˆ¥1
+Y
+java:S1611;"7Remove the parentheses around the "formLogin" parameter(Öúôİÿÿÿÿÿ8±½’ˆ¥1
+V
+java:S1611="4Remove the parentheses around the "logout" parameter(ÊÖìÿÿÿÿÿ8´½’ˆ¥1
+T
+java:S1611A"2Remove the parentheses around the "csrf" parameter(ÓÈâÀüÿÿÿÿ8¸½’ˆ¥1
+Z
+java:S1611H"8Remove the parentheses around the "rememberMe" parameter(ÕşŸ«ÿÿÿÿÿ8Ì½’ˆ¥1
+S
+java:S6437Q"6Revoke and change this password, as it is compromised.(ñò½¥8ô½’ˆ¥1

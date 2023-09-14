@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/novel-author/novel-author.iml" filepath="$PROJECT_DIR$/novel-author/novel-author.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-author/novel-author-api/novel-author-api.iml" filepath="$PROJECT_DIR$/novel-author/novel-author-api/novel-author-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-author/novel-author-service/novel-author-service.iml" filepath="$PROJECT_DIR$/novel-author/novel-author-service/novel-author-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-book/novel-book.iml" filepath="$PROJECT_DIR$/novel-book/novel-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-book/novel-book-api/novel-book-api.iml" filepath="$PROJECT_DIR$/novel-book/novel-book-api/novel-book-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-book/novel-book-service/novel-book-service.iml" filepath="$PROJECT_DIR$/novel-book/novel-book-service/novel-book-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/novel-cloud-master.iml" filepath="$PROJECT_DIR$/.idea/novel-cloud-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-core/novel-common/novel-common.iml" filepath="$PROJECT_DIR$/novel-core/novel-common/novel-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-core/novel-config/novel-config.iml" filepath="$PROJECT_DIR$/novel-core/novel-config/novel-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-core/novel-core.iml" filepath="$PROJECT_DIR$/novel-core/novel-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-gateway/novel-gateway.iml" filepath="$PROJECT_DIR$/novel-gateway/novel-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-home/novel-home.iml" filepath="$PROJECT_DIR$/novel-home/novel-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-monitor/novel-monitor.iml" filepath="$PROJECT_DIR$/novel-monitor/novel-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-news/novel-news.iml" filepath="$PROJECT_DIR$/novel-news/novel-news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-news/novel-news-api/novel-news-api.iml" filepath="$PROJECT_DIR$/novel-news/novel-news-api/novel-news-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-news/novel-news-service/novel-news-service.iml" filepath="$PROJECT_DIR$/novel-news/novel-news-service/novel-news-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-resource/novel-resource.iml" filepath="$PROJECT_DIR$/novel-resource/novel-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-search/novel-search.iml" filepath="$PROJECT_DIR$/novel-search/novel-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-user/novel-user.iml" filepath="$PROJECT_DIR$/novel-user/novel-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-user/novel-user-api/novel-user-api.iml" filepath="$PROJECT_DIR$/novel-user/novel-user-api/novel-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novel-user/novel-user-service/novel-user-service.iml" filepath="$PROJECT_DIR$/novel-user/novel-user-service/novel-user-service.iml" />
+    </modules>
+  </component>
+</project>

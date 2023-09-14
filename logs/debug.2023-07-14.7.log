@@ -1,0 +1,640 @@
+2023-07-14 16:16:10,156 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:16:10,162 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:16:10,176 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-14 16:16:10,180 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0
+2023-07-14 16:16:10,190 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$583/0x0000000800f6e000
+2023-07-14 16:16:10,191 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$584/0x0000000800f6e420
+2023-07-14 16:16:10,191 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-14 16:16:10,192 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-14 16:16:10,198 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:16:10,954 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689322570753_127.0.0.1_57310
+2023-07-14 16:16:10,955 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Notify connected event to listeners.
+2023-07-14 16:16:10,956 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:16:10,956 INFO (ClientWorker.java:638)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Connected,notify listen context...
+2023-07-14 16:16:10,956 INFO (LoggerUtils.java:60)- [75629c93-5b6a-4c0a-99b2-7a15a5e3c127_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010ddd28
+2023-07-14 16:16:10,984 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-14 16:16:11,011 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway] & group[DEFAULT_GROUP]
+2023-07-14 16:16:11,019 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:16:11,025 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway-dev.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:16:11,025 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway,DEFAULT_GROUP'}]
+2023-07-14 16:16:11,031 INFO (SpringApplication.java:638)- The following 1 profile is active: "dev"
+2023-07-14 16:16:11,789 INFO (GenericScope.java:282)- BeanFactory id=5b394870-3ce2-3918-ba6d-7002482b8655
+2023-07-14 16:16:11,820 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:16:11,821 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:16:11,823 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:16:12,507 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [After]
+2023-07-14 16:16:12,507 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Before]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Between]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Cookie]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Header]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Host]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Method]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Path]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Query]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [ReadBody]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-14 16:16:12,508 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Weight]
+2023-07-14 16:16:12,509 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-14 16:16:12,822 INFO (EndpointLinksResolver.java:58)- Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-07-14 16:16:12,998 WARN (LoadBalancerCacheAutoConfiguration.java:94)- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-14 16:16:13,158 INFO (NettyWebServer.java:111)- Netty started on port 8888
+2023-07-14 16:16:13,304 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-14 16:16:13,305 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-14 16:16:13,306 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-14 16:16:13,306 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-14 16:16:13,313 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-14 16:16:13,314 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-14 16:16:13,317 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of d0c3ee3a-113d-4495-99e4-be71c9d8d705
+2023-07-14 16:16:13,319 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-14 16:16:13,319 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-14 16:16:13,319 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-14 16:16:13,320 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:16:13,440 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689322573324_127.0.0.1_57311
+2023-07-14 16:16:13,440 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:16:13,440 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Notify connected event to listeners.
+2023-07-14 16:16:13,440 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010ddd28
+2023-07-14 16:16:13,440 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-14 16:16:13,441 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-gateway with instance Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-14 16:16:13,456 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-gateway 192.168.43.1:8888 register finished
+2023-07-14 16:16:13,505 INFO (StartupInfoLogger.java:57)- Started NovelGatewayApplication in 4.688 seconds (process running for 5.612)
+2023-07-14 16:16:13,508 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-14 16:16:13,509 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway-dev.yml+DEFAULT_GROUP
+2023-07-14 16:16:13,515 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:16:13,515 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP
+2023-07-14 16:16:13,516 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway+DEFAULT_GROUP
+2023-07-14 16:16:13,516 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:16:13,516 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway, group=DEFAULT_GROUP
+2023-07-14 16:16:13,516 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway.yml+DEFAULT_GROUP
+2023-07-14 16:16:13,517 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:16:13,517 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway.yml, group=DEFAULT_GROUP
+2023-07-14 16:23:38,198 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-news-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:23:38,211 INFO (ServiceInfoHolder.java:184)- init new ips(1) service: DEFAULT_GROUP@@novel-news-service -> [{"ip":"192.168.43.1","port":9030,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-news-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 16:23:38,212 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-news-service -> [{"ip":"192.168.43.1","port":9030,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-news-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 16:23:38,770 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+2023-07-14 16:23:38,770 INFO (LoggerUtils.java:60)- [d0c3ee3a-113d-4495-99e4-be71c9d8d705] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+2023-07-14 16:40:08,791 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-14 16:40:08,791 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-14 16:40:08,792 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-14 16:40:08,793 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-14 16:40:08,820 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-14 16:40:08,821 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-gateway with instance: Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-14 16:40:08,825 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-14 16:40:08,827 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-14 16:40:08,828 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-14 16:40:08,828 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-14 16:40:08,828 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-14 16:40:08,829 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-14 16:40:08,829 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-14 16:40:08,829 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-14 16:40:08,829 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-14 16:40:08,829 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:40:08,830 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:40:08,830 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-14 16:40:08,830 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-14 16:40:08,830 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:40:08,830 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:40:08,830 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-14 16:40:08,831 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-14 16:40:08,831 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@8b22451[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-14 16:40:08,831 INFO (RpcClient.java:580)- Close current connection 1689322573324_127.0.0.1_57311
+2023-07-14 16:40:08,833 INFO (LoggerUtils.java:60)- [1689322573324_127.0.0.1_57311]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-14 16:40:08,839 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6fa3a106[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 329]
+2023-07-14 16:40:08,840 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@69ed7030[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 477]
+2023-07-14 16:40:08,840 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-14 16:40:08,840 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-14 16:40:08,841 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-14 16:50:12,405 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:50:12,408 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:50:12,421 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-14 16:50:12,424 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 74ac9228-156c-4f29-a1d6-8b234919dc43_config-0
+2023-07-14 16:50:12,437 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$583/0x0000000800f8d6d0
+2023-07-14 16:50:12,438 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$584/0x0000000800f8daf0
+2023-07-14 16:50:12,439 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-14 16:50:12,439 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-14 16:50:12,444 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:50:13,233 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689324613035_127.0.0.1_52464
+2023-07-14 16:50:13,234 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:50:13,234 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Notify connected event to listeners.
+2023-07-14 16:50:13,235 INFO (ClientWorker.java:638)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Connected,notify listen context...
+2023-07-14 16:50:13,235 INFO (LoggerUtils.java:60)- [74ac9228-156c-4f29-a1d6-8b234919dc43_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bf558
+2023-07-14 16:50:13,264 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-14 16:50:13,297 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway] & group[DEFAULT_GROUP]
+2023-07-14 16:50:13,306 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:50:13,315 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway-dev.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:50:13,316 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway,DEFAULT_GROUP'}]
+2023-07-14 16:50:13,321 INFO (SpringApplication.java:638)- The following 1 profile is active: "dev"
+2023-07-14 16:50:14,050 INFO (GenericScope.java:282)- BeanFactory id=5b394870-3ce2-3918-ba6d-7002482b8655
+2023-07-14 16:50:14,092 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:50:14,093 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:50:14,094 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:50:15,442 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:50:16,544 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [After]
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Before]
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Between]
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Cookie]
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Header]
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Host]
+2023-07-14 16:50:16,873 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Method]
+2023-07-14 16:50:16,874 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Path]
+2023-07-14 16:50:16,874 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Query]
+2023-07-14 16:50:16,874 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [ReadBody]
+2023-07-14 16:50:16,874 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-14 16:50:16,874 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-14 16:50:16,874 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Weight]
+2023-07-14 16:50:16,875 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-14 16:50:18,137 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:50:18,215 INFO (EndpointLinksResolver.java:58)- Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-07-14 16:50:18,398 WARN (LoadBalancerCacheAutoConfiguration.java:94)- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-14 16:50:18,554 INFO (NettyWebServer.java:111)- Netty started on port 8888
+2023-07-14 16:50:19,656 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:50:20,742 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:50:20,746 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-14 16:50:20,746 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-14 16:50:20,746 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-14 16:50:20,747 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-14 16:50:20,753 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-14 16:50:20,753 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-14 16:50:20,755 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of a1571871-5863-43ed-85e3-973df0de6424
+2023-07-14 16:50:20,757 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-14 16:50:20,757 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-14 16:50:20,757 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-14 16:50:20,758 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:50:20,881 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689324620765_127.0.0.1_52482
+2023-07-14 16:50:20,881 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Notify connected event to listeners.
+2023-07-14 16:50:20,881 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:50:20,881 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-14 16:50:20,881 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bf558
+2023-07-14 16:50:20,882 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-gateway with instance Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-14 16:50:20,899 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-gateway 192.168.43.1:8888 register finished
+2023-07-14 16:50:20,965 INFO (StartupInfoLogger.java:57)- Started NovelGatewayApplication in 11.666 seconds (process running for 12.295)
+2023-07-14 16:50:20,971 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-14 16:50:20,973 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway-dev.yml+DEFAULT_GROUP
+2023-07-14 16:50:20,982 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:50:20,982 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP
+2023-07-14 16:50:20,983 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway+DEFAULT_GROUP
+2023-07-14 16:50:20,983 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:50:20,984 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway, group=DEFAULT_GROUP
+2023-07-14 16:50:20,984 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway.yml+DEFAULT_GROUP
+2023-07-14 16:50:20,984 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:50:20,985 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway.yml, group=DEFAULT_GROUP
+2023-07-14 16:50:40,368 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-news-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:50:40,383 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-news-service -> []
+2023-07-14 16:50:40,385 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-news-service -> []
+2023-07-14 16:50:40,395 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-news-service
+2023-07-14 16:50:41,102 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+2023-07-14 16:50:41,103 INFO (LoggerUtils.java:60)- [a1571871-5863-43ed-85e3-973df0de6424] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+2023-07-14 16:52:27,976 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-14 16:52:27,976 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-14 16:52:27,978 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-14 16:52:27,978 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-14 16:52:27,985 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-14 16:52:27,986 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-gateway with instance: Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-14 16:52:27,992 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-14 16:52:27,993 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-14 16:52:27,993 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-14 16:52:27,994 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-14 16:52:27,994 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-14 16:52:27,994 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-14 16:52:27,994 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-14 16:52:27,994 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-14 16:52:27,994 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-14 16:52:27,994 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:52:27,994 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:52:27,994 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-14 16:52:27,994 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-14 16:52:27,994 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:52:27,994 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:52:27,994 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-14 16:52:27,994 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-14 16:52:27,994 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6c8367e5[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-14 16:52:27,995 INFO (RpcClient.java:580)- Close current connection 1689324620765_127.0.0.1_52482
+2023-07-14 16:52:27,996 INFO (LoggerUtils.java:60)- [1689324620765_127.0.0.1_52482]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-14 16:52:27,997 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4b4b0ae6[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 54]
+2023-07-14 16:52:27,997 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@3af1b0f1[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 42]
+2023-07-14 16:52:27,998 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-14 16:52:27,999 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-14 16:52:27,999 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-14 16:52:37,230 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:52:37,232 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:52:37,242 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-14 16:52:37,244 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 3e812f94-34f8-4bb7-af06-feec3c788e83_config-0
+2023-07-14 16:52:37,254 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$583/0x0000000800f8d038
+2023-07-14 16:52:37,254 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$584/0x0000000800f8d458
+2023-07-14 16:52:37,254 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-14 16:52:37,255 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-14 16:52:37,259 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:52:37,838 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689324757681_127.0.0.1_59378
+2023-07-14 16:52:37,840 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Notify connected event to listeners.
+2023-07-14 16:52:37,840 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:52:37,840 INFO (ClientWorker.java:638)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Connected,notify listen context...
+2023-07-14 16:52:37,840 INFO (LoggerUtils.java:60)- [3e812f94-34f8-4bb7-af06-feec3c788e83_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bebe0
+2023-07-14 16:52:37,864 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-14 16:52:37,877 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway] & group[DEFAULT_GROUP]
+2023-07-14 16:52:37,883 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:52:37,887 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway-dev.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:52:37,888 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway,DEFAULT_GROUP'}]
+2023-07-14 16:52:37,893 INFO (SpringApplication.java:638)- The following 1 profile is active: "dev"
+2023-07-14 16:52:38,536 INFO (GenericScope.java:282)- BeanFactory id=5b394870-3ce2-3918-ba6d-7002482b8655
+2023-07-14 16:52:38,562 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:52:38,563 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:52:38,565 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:52:39,861 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:52:40,946 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:52:41,189 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [After]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Before]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Between]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Cookie]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Header]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Host]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Method]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Path]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Query]
+2023-07-14 16:52:41,190 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [ReadBody]
+2023-07-14 16:52:41,191 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-14 16:52:41,192 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-14 16:52:41,192 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Weight]
+2023-07-14 16:52:41,192 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-14 16:52:42,402 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:52:42,471 INFO (EndpointLinksResolver.java:58)- Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-07-14 16:52:42,633 WARN (LoadBalancerCacheAutoConfiguration.java:94)- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-14 16:52:42,754 INFO (NettyWebServer.java:111)- Netty started on port 8888
+2023-07-14 16:52:43,826 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:52:44,903 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:52:44,905 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-14 16:52:44,906 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-14 16:52:44,906 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-14 16:52:44,906 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-14 16:52:44,914 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-14 16:52:44,914 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-14 16:52:44,917 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 85be898c-5218-4776-b252-270ba1a22740
+2023-07-14 16:52:44,918 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-14 16:52:44,918 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-14 16:52:44,919 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-14 16:52:44,919 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:52:45,027 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689324764923_127.0.0.1_54296
+2023-07-14 16:52:45,028 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:52:45,028 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Notify connected event to listeners.
+2023-07-14 16:52:45,029 INFO (LoggerUtils.java:60)- [85be898c-5218-4776-b252-270ba1a22740] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bebe0
+2023-07-14 16:52:45,029 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-14 16:52:45,031 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-gateway with instance Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-14 16:52:45,042 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-gateway 192.168.43.1:8888 register finished
+2023-07-14 16:52:45,093 INFO (StartupInfoLogger.java:57)- Started NovelGatewayApplication in 10.701 seconds (process running for 11.233)
+2023-07-14 16:52:45,098 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-14 16:52:45,099 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway-dev.yml+DEFAULT_GROUP
+2023-07-14 16:52:45,106 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:52:45,106 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP
+2023-07-14 16:52:45,107 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway+DEFAULT_GROUP
+2023-07-14 16:52:45,107 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:52:45,107 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway, group=DEFAULT_GROUP
+2023-07-14 16:52:45,108 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway.yml+DEFAULT_GROUP
+2023-07-14 16:52:45,109 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:52:45,109 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway.yml, group=DEFAULT_GROUP
+2023-07-14 16:53:39,499 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-14 16:53:39,499 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-14 16:53:39,501 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-14 16:53:39,501 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-14 16:53:39,505 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-14 16:53:39,506 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-gateway with instance: Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-14 16:53:39,511 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-14 16:53:39,512 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-14 16:53:39,512 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-14 16:53:39,513 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-14 16:53:39,513 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-14 16:53:39,514 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-14 16:53:39,514 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-14 16:53:39,514 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-14 16:53:39,514 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-14 16:53:39,514 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:53:39,515 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:53:39,515 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-14 16:53:39,515 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-14 16:53:39,515 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:53:39,515 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:53:39,515 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-14 16:53:39,515 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-14 16:53:39,515 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5ddc9cee[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-14 16:53:39,515 INFO (RpcClient.java:580)- Close current connection 1689324764923_127.0.0.1_54296
+2023-07-14 16:53:39,517 INFO (LoggerUtils.java:60)- [1689324764923_127.0.0.1_54296]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-14 16:53:39,518 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@d6e4deb[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 28]
+2023-07-14 16:53:39,518 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@529c9f58[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 18]
+2023-07-14 16:53:39,519 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-14 16:53:39,519 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-14 16:53:39,520 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-14 16:53:41,193 INFO (CredentialWatcher.java:165)- null No credential found
+2023-07-14 16:53:48,815 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:53:48,818 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 16:53:48,828 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-14 16:53:48,830 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 46884025-93ed-407f-b637-9bf5ff6df601_config-0
+2023-07-14 16:53:48,839 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$583/0x0000000800f8d8f0
+2023-07-14 16:53:48,839 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$584/0x0000000800f8dd10
+2023-07-14 16:53:48,839 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-14 16:53:48,840 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-14 16:53:48,845 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:53:49,446 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689324829294_127.0.0.1_64833
+2023-07-14 16:53:49,447 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Notify connected event to listeners.
+2023-07-14 16:53:49,447 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:53:49,448 INFO (ClientWorker.java:638)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Connected,notify listen context...
+2023-07-14 16:53:49,448 INFO (LoggerUtils.java:60)- [46884025-93ed-407f-b637-9bf5ff6df601_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bfdc0
+2023-07-14 16:53:49,474 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-14 16:53:49,486 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway] & group[DEFAULT_GROUP]
+2023-07-14 16:53:49,493 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:53:49,498 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway-dev.yml] & group[DEFAULT_GROUP]
+2023-07-14 16:53:49,499 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway,DEFAULT_GROUP'}]
+2023-07-14 16:53:49,503 INFO (SpringApplication.java:638)- The following 1 profile is active: "dev"
+2023-07-14 16:53:50,122 INFO (GenericScope.java:282)- BeanFactory id=5b394870-3ce2-3918-ba6d-7002482b8655
+2023-07-14 16:53:50,148 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:53:50,149 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:53:50,150 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 16:53:51,443 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:53:52,532 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:53:52,822 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [After]
+2023-07-14 16:53:52,822 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Before]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Between]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Cookie]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Header]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Host]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Method]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Path]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Query]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [ReadBody]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-14 16:53:52,823 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Weight]
+2023-07-14 16:53:52,824 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-14 16:53:54,096 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:53:54,190 INFO (EndpointLinksResolver.java:58)- Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-07-14 16:53:54,403 WARN (LoadBalancerCacheAutoConfiguration.java:94)- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-14 16:53:54,565 INFO (NettyWebServer.java:111)- Netty started on port 8888
+2023-07-14 16:53:55,649 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:53:56,733 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 16:53:56,736 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-14 16:53:56,737 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-14 16:53:56,737 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-14 16:53:56,738 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-14 16:53:56,757 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-14 16:53:56,757 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-14 16:53:56,761 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of d7b809cd-e506-4d0b-81f9-f876feb094c9
+2023-07-14 16:53:56,763 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-14 16:53:56,763 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-14 16:53:56,764 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-14 16:53:56,764 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 16:53:56,888 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689324836768_127.0.0.1_60977
+2023-07-14 16:53:56,888 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 16:53:56,888 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Notify connected event to listeners.
+2023-07-14 16:53:56,888 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bfdc0
+2023-07-14 16:53:56,888 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-14 16:53:56,889 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-gateway with instance Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-14 16:53:56,901 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-gateway 192.168.43.1:8888 register finished
+2023-07-14 16:53:56,997 INFO (StartupInfoLogger.java:57)- Started NovelGatewayApplication in 11.051 seconds (process running for 11.615)
+2023-07-14 16:53:57,004 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-14 16:53:57,005 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway-dev.yml+DEFAULT_GROUP
+2023-07-14 16:53:57,010 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:53:57,011 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP
+2023-07-14 16:53:57,012 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway+DEFAULT_GROUP
+2023-07-14 16:53:57,012 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:53:57,012 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway, group=DEFAULT_GROUP
+2023-07-14 16:53:57,013 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway.yml+DEFAULT_GROUP
+2023-07-14 16:53:57,013 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 16:53:57,013 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway.yml, group=DEFAULT_GROUP
+2023-07-14 16:54:36,879 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-book-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:54:36,882 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-home-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:54:36,886 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-home-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:54:36,888 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-book-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:54:36,890 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-book-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:54:36,897 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-book-service -> []
+2023-07-14 16:54:36,899 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-home-service -> []
+2023-07-14 16:54:36,899 WARN (ServiceInfoHolder.java:189)- out of date data received, old-t: 1689324876893, new-t: 1689324876888
+2023-07-14 16:54:36,900 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-home-service -> []
+2023-07-14 16:54:36,900 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-book-service -> []
+2023-07-14 16:54:36,903 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:54:36,903 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:54:36,903 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:54:36,905 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:54:36,905 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:54:36,946 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-news-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 16:54:36,951 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-news-service -> []
+2023-07-14 16:54:36,952 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-news-service -> []
+2023-07-14 16:54:36,953 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-news-service
+2023-07-14 16:54:37,467 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+2023-07-14 16:54:37,468 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+2023-07-14 16:54:37,472 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+2023-07-14 16:54:37,473 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+2023-07-14 16:54:37,476 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+2023-07-14 16:54:37,477 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+2023-07-14 16:54:43,536 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+2023-07-14 16:54:43,537 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+2023-07-14 16:54:50,411 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-news-service
+2023-07-14 16:54:50,414 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:54:50,414 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:54:50,414 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:54:50,415 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:54:50,416 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:55:15,131 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+2023-07-14 16:55:15,131 INFO (ServiceInfoHolder.java:235)- new ips(1) service: DEFAULT_GROUP@@novel-news-service -> [{"ip":"192.168.43.1","port":9030,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-news-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-14 16:55:15,132 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-news-service -> [{"ip":"192.168.43.1","port":9030,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-news-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-14 16:55:15,132 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+2023-07-14 16:55:17,716 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:55:17,720 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:55:17,720 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:55:17,720 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:55:17,795 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 16:55:41,644 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+2023-07-14 16:55:41,644 INFO (ServiceInfoHolder.java:235)- new ips(1) service: DEFAULT_GROUP@@novel-book-service -> [{"ip":"192.168.43.1","port":9020,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-14 16:55:41,645 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-book-service -> [{"ip":"192.168.43.1","port":9020,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-14 16:55:41,646 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+2023-07-14 16:55:45,866 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:55:45,869 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 16:56:06,950 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+2023-07-14 16:56:06,951 INFO (ServiceInfoHolder.java:235)- new ips(1) service: DEFAULT_GROUP@@novel-home-service -> [{"ip":"192.168.43.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-home-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-14 16:56:06,951 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-home-service -> [{"ip":"192.168.43.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-home-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-14 16:56:06,952 INFO (LoggerUtils.java:60)- [d7b809cd-e506-4d0b-81f9-f876feb094c9] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+2023-07-14 16:58:20,201 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-14 16:58:20,201 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-14 16:58:20,201 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-14 16:58:20,201 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-14 16:58:20,206 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-14 16:58:20,206 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-gateway with instance: Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-14 16:58:20,210 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-14 16:58:20,210 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-14 16:58:20,210 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-14 16:58:20,211 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-14 16:58:20,211 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-14 16:58:20,211 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-14 16:58:20,211 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-14 16:58:20,211 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-14 16:58:20,211 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-14 16:58:20,211 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:58:20,211 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:58:20,211 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-14 16:58:20,211 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-14 16:58:20,211 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 16:58:20,212 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 16:58:20,212 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-14 16:58:20,212 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-14 16:58:20,212 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@70601075[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-14 16:58:20,212 INFO (RpcClient.java:580)- Close current connection 1689324836768_127.0.0.1_60977
+2023-07-14 16:58:20,214 INFO (LoggerUtils.java:60)- [1689324836768_127.0.0.1_60977]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-14 16:58:20,216 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@65f058b2[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 84]
+2023-07-14 16:58:20,216 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@4ff6e4f3[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 87]
+2023-07-14 16:58:20,217 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-14 16:58:20,217 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-14 16:58:20,217 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-14 18:29:14,073 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 18:29:14,076 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-14 18:29:14,088 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-14 18:29:14,091 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0
+2023-07-14 18:29:14,101 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$583/0x0000000800f8cfd8
+2023-07-14 18:29:14,102 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$584/0x0000000800f8d3f8
+2023-07-14 18:29:14,102 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-14 18:29:14,102 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-14 18:29:14,107 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 18:29:14,867 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689330554678_127.0.0.1_64804
+2023-07-14 18:29:14,867 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Notify connected event to listeners.
+2023-07-14 18:29:14,867 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 18:29:14,867 INFO (ClientWorker.java:638)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Connected,notify listen context...
+2023-07-14 18:29:14,867 INFO (LoggerUtils.java:60)- [aef0ca0c-e513-4e3f-983d-0c30b171aab9_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bf020
+2023-07-14 18:29:14,902 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-14 18:29:14,927 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway] & group[DEFAULT_GROUP]
+2023-07-14 18:29:14,935 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway.yml] & group[DEFAULT_GROUP]
+2023-07-14 18:29:14,941 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-gateway-dev.yml] & group[DEFAULT_GROUP]
+2023-07-14 18:29:14,942 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-gateway,DEFAULT_GROUP'}]
+2023-07-14 18:29:14,946 INFO (SpringApplication.java:638)- The following 1 profile is active: "dev"
+2023-07-14 18:29:15,695 INFO (GenericScope.java:282)- BeanFactory id=5b394870-3ce2-3918-ba6d-7002482b8655
+2023-07-14 18:29:15,727 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 18:29:15,728 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 18:29:15,730 INFO (PostProcessorRegistrationDelegate.java:409)- Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-14 18:29:17,090 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 18:29:18,162 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [After]
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Before]
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Between]
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Cookie]
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Header]
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Host]
+2023-07-14 18:29:18,462 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Method]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Path]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Query]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [ReadBody]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [Weight]
+2023-07-14 18:29:18,463 INFO (RouteDefinitionRouteLocator.java:89)- Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-14 18:29:19,699 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 18:29:19,776 INFO (EndpointLinksResolver.java:58)- Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-07-14 18:29:19,967 WARN (LoadBalancerCacheAutoConfiguration.java:94)- Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-14 18:29:20,118 INFO (NettyWebServer.java:111)- Netty started on port 8888
+2023-07-14 18:29:21,192 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 18:29:22,267 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-14 18:29:22,271 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-14 18:29:22,272 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-14 18:29:22,272 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-14 18:29:22,272 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-14 18:29:22,277 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-14 18:29:22,278 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-14 18:29:22,280 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of d25a12b0-c0cb-458f-a589-412632786f7f
+2023-07-14 18:29:22,281 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-14 18:29:22,283 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-14 18:29:22,283 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-14 18:29:22,284 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-14 18:29:22,408 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1689330562288_127.0.0.1_64811
+2023-07-14 18:29:22,408 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-14 18:29:22,408 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Notify connected event to listeners.
+2023-07-14 18:29:22,408 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$603/0x00000008010bf020
+2023-07-14 18:29:22,408 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-14 18:29:22,409 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-gateway with instance Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-14 18:29:22,428 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-gateway 192.168.43.1:8888 register finished
+2023-07-14 18:29:22,479 INFO (StartupInfoLogger.java:57)- Started NovelGatewayApplication in 11.437 seconds (process running for 12.013)
+2023-07-14 18:29:22,484 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-14 18:29:22,485 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway-dev.yml+DEFAULT_GROUP
+2023-07-14 18:29:22,493 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 18:29:22,494 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway-dev.yml, group=DEFAULT_GROUP
+2023-07-14 18:29:22,494 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway+DEFAULT_GROUP
+2023-07-14 18:29:22,494 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-14 18:29:22,495 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway, group=DEFAULT_GROUP
+2023-07-14 18:29:22,495 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-gateway.yml+DEFAULT_GROUP
+2023-07-14 18:29:22,495 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-gateway.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-14 18:29:22,495 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-gateway.yml, group=DEFAULT_GROUP
+2023-07-14 18:29:30,450 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-home-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 18:29:30,451 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-news-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 18:29:30,467 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-news-service -> []
+2023-07-14 18:29:30,467 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-home-service -> []
+2023-07-14 18:29:30,470 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-news-service -> []
+2023-07-14 18:29:30,470 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-home-service -> []
+2023-07-14 18:29:30,478 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-news-service
+2023-07-14 18:29:30,478 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-book-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 18:29:30,478 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 18:29:30,481 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-home-service
+2023-07-14 18:29:30,484 INFO (ServiceInfoHolder.java:184)- init new ips(0) service: DEFAULT_GROUP@@novel-book-service -> []
+2023-07-14 18:29:30,484 INFO (ServiceInfoHolder.java:169)- current ips:(0) service: DEFAULT_GROUP@@novel-book-service -> []
+2023-07-14 18:29:30,486 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 18:29:30,521 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 18:29:30,521 WARN (RoundRobinLoadBalancer.java:98)- No servers available for service: novel-book-service
+2023-07-14 18:29:31,100 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+2023-07-14 18:29:31,100 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+2023-07-14 18:29:31,103 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+2023-07-14 18:29:31,103 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+2023-07-14 18:29:31,107 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+2023-07-14 18:29:31,107 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+2023-07-14 18:29:37,082 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+2023-07-14 18:29:37,082 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+2023-07-14 18:29:51,062 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+2023-07-14 18:29:51,063 INFO (ServiceInfoHolder.java:235)- new ips(1) service: DEFAULT_GROUP@@novel-home-service -> [{"ip":"192.168.43.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-home-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:29:51,063 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-home-service -> [{"ip":"192.168.43.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-home-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:29:51,064 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+2023-07-14 18:32:00,609 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 9
+2023-07-14 18:32:00,610 INFO (ServiceInfoHolder.java:235)- new ips(1) service: DEFAULT_GROUP@@novel-book-service -> [{"ip":"192.168.43.1","port":9020,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:32:00,610 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-book-service -> [{"ip":"192.168.43.1","port":9020,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:32:00,611 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 9
+2023-07-14 18:32:08,480 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 10
+2023-07-14 18:32:08,481 INFO (ServiceInfoHolder.java:235)- new ips(1) service: DEFAULT_GROUP@@novel-news-service -> [{"ip":"192.168.43.1","port":9030,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-news-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:32:08,481 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-news-service -> [{"ip":"192.168.43.1","port":9030,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-news-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:32:08,482 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 10
+2023-07-14 18:33:55,765 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-resource-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 18:33:55,769 INFO (ServiceInfoHolder.java:184)- init new ips(1) service: DEFAULT_GROUP@@novel-resource-service -> [{"ip":"192.168.43.1","port":9040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-resource-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:33:55,770 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-resource-service -> [{"ip":"192.168.43.1","port":9040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-resource-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:33:56,355 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 12
+2023-07-14 18:33:56,355 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 12
+2023-07-14 18:34:37,019 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-user-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 18:34:37,021 INFO (ServiceInfoHolder.java:184)- init new ips(1) service: DEFAULT_GROUP@@novel-user-service -> [{"ip":"192.168.43.1","port":9060,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:34:37,023 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-user-service -> [{"ip":"192.168.43.1","port":9060,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 18:34:37,527 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 13
+2023-07-14 18:34:37,527 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 13
+2023-07-14 19:01:45,203 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-author-service, group:DEFAULT_GROUP, clusters: 
+2023-07-14 19:01:45,222 INFO (ServiceInfoHolder.java:184)- init new ips(1) service: DEFAULT_GROUP@@novel-author-service -> [{"ip":"192.168.43.1","port":9010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-author-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 19:01:45,222 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-author-service -> [{"ip":"192.168.43.1","port":9010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-author-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-07-14 19:01:45,728 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Receive server push request, request = NotifySubscriberRequest, requestId = 14
+2023-07-14 19:01:45,735 INFO (LoggerUtils.java:60)- [d25a12b0-c0cb-458f-a589-412632786f7f] Ack server push request, request = NotifySubscriberRequest, requestId = 14
+2023-07-14 22:17:27,528 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-14 22:17:27,528 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-14 22:17:27,541 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-14 22:17:27,543 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-14 22:17:27,629 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-14 22:17:27,631 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-gateway with instance: Instance{instanceId='null', ip='192.168.43.1', port=8888, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-14 22:17:27,645 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-14 22:17:27,648 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-14 22:17:27,648 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-14 22:17:27,649 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-14 22:17:27,649 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-14 22:17:27,649 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-14 22:17:27,649 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-14 22:17:27,649 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-14 22:17:27,649 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-14 22:17:27,650 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 22:17:27,650 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 22:17:27,650 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-14 22:17:27,651 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-14 22:17:27,651 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-14 22:17:27,651 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-14 22:17:27,651 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-14 22:17:27,651 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-14 22:17:27,652 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7e784b3c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-14 22:17:27,653 INFO (RpcClient.java:580)- Close current connection 1689330562288_127.0.0.1_64811
+2023-07-14 22:17:27,658 INFO (LoggerUtils.java:60)- [1689330562288_127.0.0.1_64811]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-14 22:17:27,673 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@39d07c1[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 2819]
+2023-07-14 22:17:27,673 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@1129a637[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 4549]
+2023-07-14 22:17:27,675 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-14 22:17:27,677 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-14 22:17:27,677 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-14 22:17:29,302 INFO (CredentialWatcher.java:165)- null No credential found

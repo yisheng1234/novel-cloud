@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "novel.xss",
+      "type": "io.github.xxyopen.novel.config.XssProperties",
+      "sourceType": "io.github.xxyopen.novel.config.XssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "novel.xss.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "io.github.xxyopen.novel.config.XssProperties"
+    },
+    {
+      "name": "novel.xss.excludes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "io.github.xxyopen.novel.config.XssProperties"
+    }
+  ],
+  "hints": []
+}

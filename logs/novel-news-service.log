@@ -1,0 +1,696 @@
+2023-07-25 22:03:10,141 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-25 22:03:10,148 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-25 22:03:10,169 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-25 22:03:10,172 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 97299bfe-8784-481d-a481-3850badbc7ec_config-0
+2023-07-25 22:03:10,188 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$651/0x0000000800fb64c0
+2023-07-25 22:03:10,189 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$652/0x0000000800fb68e0
+2023-07-25 22:03:10,189 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-25 22:03:10,190 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-25 22:03:10,200 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-25 22:03:11,077 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690293790896_127.0.0.1_53055
+2023-07-25 22:03:11,078 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Notify connected event to listeners.
+2023-07-25 22:03:11,079 INFO (ClientWorker.java:638)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Connected,notify listen context...
+2023-07-25 22:03:11,079 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-25 22:03:11,079 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$671/0x0000000801128000
+2023-07-25 22:03:11,109 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-25 22:03:11,123 INFO (JvmUtil.java:54)- isMultiInstance:false
+2023-07-25 22:03:11,151 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service] & group[DEFAULT_GROUP]
+2023-07-25 22:03:11,158 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:03:11,164 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-common.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:03:11,169 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-dev.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:03:11,171 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-news-service-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service-common.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-rabbitmq.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-redis.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-mysql.yml,DEFAULT_GROUP'}]
+2023-07-25 22:03:11,179 INFO (SpringApplication.java:638)- The following 2 profiles are active: "common", "dev"
+2023-07-25 22:03:12,342 INFO (RepositoryConfigurationDelegate.java:291)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-25 22:03:12,346 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-25 22:03:12,375 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-07-25 22:03:12,774 INFO (GenericScope.java:282)- BeanFactory id=65745d27-3ec1-3b85-baea-68a2eece2786
+2023-07-25 22:03:13,888 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-07-25 22:03:13,922 INFO (ServletContextImpl.java:372)- Initializing Spring embedded WebApplicationContext
+2023-07-25 22:03:13,922 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 2726 ms
+2023-07-25 22:03:14,982 INFO (Version.java:41)- Redisson 3.19.1
+2023-07-25 22:03:15,332 INFO (ConnectionPool.java:162)- 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-25 22:03:15,369 INFO (ConnectionPool.java:162)- 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-25 22:03:16,112 INFO (SentinelWebMvcConfigurer.java:52)- [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-07-25 22:03:18,774 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2023-07-25 22:03:18,793 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-25 22:03:18,794 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2023-07-25 22:03:18,796 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2023-07-25 22:03:18,798 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-25 22:03:18,800 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-25 22:03:18,800 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2023-07-25 22:03:18,800 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@116c43d4
+2023-07-25 22:03:19,616 INFO (EndpointLinksResolver.java:58)- Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-07-25 22:03:19,805 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-07-25 22:03:19,848 INFO (Undertow.java:120)- starting server: Undertow - 2.3.4.Final
+2023-07-25 22:03:19,862 INFO (Xnio.java:95)- XNIO version 3.8.8.Final
+2023-07-25 22:03:19,875 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.8.Final
+2023-07-25 22:03:19,911 INFO (Version.java:55)- JBoss Threads version 3.5.0.Final
+2023-07-25 22:03:19,973 INFO (UndertowWebServer.java:121)- Undertow started on port(s) 9030 (http)
+2023-07-25 22:03:19,977 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-25 22:03:19,978 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-25 22:03:19,979 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-25 22:03:19,979 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-25 22:03:19,989 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-25 22:03:19,989 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-25 22:03:19,993 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3
+2023-07-25 22:03:19,995 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-25 22:03:19,996 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-25 22:03:19,996 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-25 22:03:19,997 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-25 22:03:20,118 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690293800003_127.0.0.1_53113
+2023-07-25 22:03:20,119 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-25 22:03:20,119 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Notify connected event to listeners.
+2023-07-25 22:03:20,119 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-25 22:03:20,119 INFO (LoggerUtils.java:60)- [82cdbc33-f89e-45c7-b2cc-7bc4fc6b43f3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$671/0x0000000801128000
+2023-07-25 22:03:20,120 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-news-service with instance Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-25 22:03:20,131 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-news-service 192.168.43.1:9030 register finished
+2023-07-25 22:03:20,241 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2023-07-25 22:03:20,242 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-25 22:03:20,264 INFO (StartupInfoLogger.java:57)- Started NovelNewsApplication in 12.146 seconds (process running for 12.991)
+2023-07-25 22:03:20,269 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-25 22:03:20,270 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service+DEFAULT_GROUP
+2023-07-25 22:03:20,278 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,279 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service, group=DEFAULT_GROUP
+2023-07-25 22:03:20,280 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-common.yml+DEFAULT_GROUP
+2023-07-25 22:03:20,280 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-common.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,280 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-common.yml, group=DEFAULT_GROUP
+2023-07-25 22:03:20,281 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-mysql.yml+DEFAULT_GROUP
+2023-07-25 22:03:20,282 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-mysql.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,282 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-mysql.yml, group=DEFAULT_GROUP
+2023-07-25 22:03:20,284 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-redis.yml+DEFAULT_GROUP
+2023-07-25 22:03:20,285 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-redis.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,285 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-redis.yml, group=DEFAULT_GROUP
+2023-07-25 22:03:20,286 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-rabbitmq.yml+DEFAULT_GROUP
+2023-07-25 22:03:20,286 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,286 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP
+2023-07-25 22:03:20,287 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-dev.yml+DEFAULT_GROUP
+2023-07-25 22:03:20,287 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,288 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP
+2023-07-25 22:03:20,288 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service.yml+DEFAULT_GROUP
+2023-07-25 22:03:20,288 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:03:20,288 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service.yml, group=DEFAULT_GROUP
+2023-07-25 22:03:20,513 INFO (ServletContextImpl.java:372)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-25 22:03:20,513 INFO (FrameworkServlet.java:532)- Initializing Servlet 'dispatcherServlet'
+2023-07-25 22:03:20,517 INFO (FrameworkServlet.java:554)- Completed initialization in 3 ms
+2023-07-25 22:03:20,553 INFO (AbstractConnectionFactory.java:630)- Attempting to connect to: [47.120.9.90:5672]
+2023-07-25 22:03:20,894 WARN (ForgivingExceptionHandler.java:115)- An unexpected connection driver error occurred (Exception message: Socket closed)
+2023-07-25 22:03:20,897 WARN (AbstractHealthIndicator.java:94)- Rabbit health check failed
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:594)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:687)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2225)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2198)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2178)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:82)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:41)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getLoggedHealth(HealthEndpointSupport.java:172)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:145)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:156)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:141)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:76)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:124)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:97)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:439)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1225)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:607)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:557)
+	... 50 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error; protocol method: #method<connection.close>(reply-code=530, reply-text=NOT_ALLOWED - vhost powernode not found, class-id=10, method-id=40)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 56 common frames omitted
+2023-07-25 22:03:20,909 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-07-25 22:03:21,192 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25ddf68
+2023-07-25 22:03:21,202 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-07-25 22:23:54,461 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
+2023-07-25 22:23:54,492 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2023-07-25 22:23:54,540 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
+2023-07-25 22:42:50,538 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Receive server push request, request = ConfigChangeNotifyRequest, requestId = 16
+2023-07-25 22:42:50,539 INFO (ClientWorker.java:605)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] [server-push] config changed. dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP,tenant=null
+2023-07-25 22:42:50,539 INFO (LoggerUtils.java:60)- [97299bfe-8784-481d-a481-3850badbc7ec_config-0] Ack server push request, request = ConfigChangeNotifyRequest, requestId = 16
+2023-07-25 22:42:50,562 INFO (ClientWorker.java:448)- [fixed-127.0.0.1_8848] [data-received] dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, tenant=, md5=06ca84c9bb38aef5f6dca1b8e4783962, content=spring:
+  rabbitmq:
+    host: 47.120.9.90
+    port: 5672
+    username: yisheng
+    password: 175531Y..., type=yaml
+2023-07-25 22:42:50,564 INFO (CacheData.java:383)- [fixed-127.0.0.1_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, md5=06ca84c9bb38aef5f6dca1b8e4783962, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6a9bcbb2 
+2023-07-25 22:42:50,589 INFO (CacheData.java:319)- [fixed-127.0.0.1_8848] [notify-context] dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, md5=06ca84c9bb38aef5f6dca1b8e4783962
+2023-07-25 22:42:50,918 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-25 22:42:50,919 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-25 22:42:51,045 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service] & group[DEFAULT_GROUP]
+2023-07-25 22:42:51,053 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:42:51,059 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-common.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:42:51,062 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-dev.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:42:51,063 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-news-service-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service-common.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-rabbitmq.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-redis.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-mysql.yml,DEFAULT_GROUP'}]
+2023-07-25 22:42:51,068 INFO (SpringApplication.java:638)- The following 2 profiles are active: "common", "dev"
+2023-07-25 22:42:51,075 INFO (StartupInfoLogger.java:57)- Started application in 0.479 seconds (process running for 2383.802)
+2023-07-25 22:42:51,230 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.apache.ibatis.mapping.Environment
+2023-07-25 22:42:51,232 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.apache.ibatis.builder.CacheRefResolver
+2023-07-25 22:42:51,238 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.apache.ibatis.builder.MapperBuilderAssistant
+2023-07-25 22:42:51,239 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.apache.ibatis.builder.annotation.MethodResolver
+2023-07-25 22:42:51,246 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.apache.ibatis.builder.annotation.MapperAnnotationBuilder
+2023-07-25 22:42:51,248 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.apache.ibatis.builder.ResultMapResolver
+2023-07-25 22:42:51,665 INFO (RefreshEventListener.java:73)- Refresh keys changed: [spring.rabbitmq.virtual-host]
+2023-07-25 22:42:51,666 INFO (CacheData.java:345)- [fixed-127.0.0.1_8848] [notify-ok] dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, md5=06ca84c9bb38aef5f6dca1b8e4783962, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6a9bcbb2 ,cost=1077 millis.
+2023-07-25 22:43:00,343 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-25 22:43:00,343 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-25 22:43:00,343 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-25 22:43:00,344 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-25 22:43:00,347 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-25 22:43:00,349 INFO (Undertow.java:259)- stopping server: Undertow - 2.3.4.Final
+2023-07-25 22:43:00,351 INFO (ServletContextImpl.java:372)- Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-25 22:43:00,360 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
+2023-07-25 22:43:00,360 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-25 22:43:00,360 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-25 22:43:00,360 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-25 22:43:00,366 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-25 22:43:00,366 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-news-service with instance: Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-25 22:43:00,368 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-25 22:43:00,369 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-25 22:43:00,369 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-25 22:43:00,370 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-25 22:43:00,370 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-25 22:43:00,370 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-25 22:43:00,370 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-25 22:43:00,370 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-25 22:43:00,370 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-25 22:43:00,370 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-25 22:43:00,370 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-25 22:43:00,370 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-25 22:43:00,370 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-25 22:43:00,370 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-25 22:43:00,370 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-25 22:43:00,370 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-25 22:43:00,370 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-25 22:43:00,370 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5f37891[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-25 22:43:00,371 INFO (RpcClient.java:580)- Close current connection 1690293800003_127.0.0.1_53113
+2023-07-25 22:43:00,372 INFO (LoggerUtils.java:60)- [1690293800003_127.0.0.1_53113]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-25 22:43:00,374 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2f77df98[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 490]
+2023-07-25 22:43:00,374 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@3f91c9c3[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 793]
+2023-07-25 22:43:00,375 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-25 22:43:00,375 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-25 22:43:00,375 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-25 22:43:00,390 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-07-25 22:43:00,393 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2023-07-25 22:43:33,514 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-25 22:43:33,518 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-25 22:43:33,535 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-25 22:43:33,540 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0
+2023-07-25 22:43:33,568 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$639/0x0000000800f9c168
+2023-07-25 22:43:33,569 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$640/0x0000000800f9c588
+2023-07-25 22:43:33,570 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-25 22:43:33,570 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-25 22:43:33,579 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-25 22:43:34,536 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690296214312_127.0.0.1_60332
+2023-07-25 22:43:34,537 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-25 22:43:34,537 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Notify connected event to listeners.
+2023-07-25 22:43:34,537 INFO (ClientWorker.java:638)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Connected,notify listen context...
+2023-07-25 22:43:34,537 INFO (LoggerUtils.java:60)- [cdfa7467-2674-46f4-8c18-f15cbdb92294_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$659/0x00000008010debf8
+2023-07-25 22:43:34,581 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-25 22:43:34,603 INFO (JvmUtil.java:54)- isMultiInstance:false
+2023-07-25 22:43:34,853 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service] & group[DEFAULT_GROUP]
+2023-07-25 22:43:34,860 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:43:34,881 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-common.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:43:34,887 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-dev.yml] & group[DEFAULT_GROUP]
+2023-07-25 22:43:34,888 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-news-service-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service-common.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-rabbitmq.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-redis.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-mysql.yml,DEFAULT_GROUP'}]
+2023-07-25 22:43:34,901 INFO (SpringApplication.java:638)- The following 2 profiles are active: "common", "dev"
+2023-07-25 22:43:36,592 INFO (RepositoryConfigurationDelegate.java:291)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-25 22:43:36,596 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-25 22:43:36,628 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-07-25 22:43:37,136 INFO (GenericScope.java:282)- BeanFactory id=65745d27-3ec1-3b85-baea-68a2eece2786
+2023-07-25 22:43:38,412 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-07-25 22:43:38,453 INFO (ServletContextImpl.java:372)- Initializing Spring embedded WebApplicationContext
+2023-07-25 22:43:38,454 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 3524 ms
+2023-07-25 22:43:39,757 INFO (Version.java:41)- Redisson 3.19.1
+2023-07-25 22:43:40,217 INFO (ConnectionPool.java:162)- 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-25 22:43:40,266 INFO (ConnectionPool.java:162)- 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-25 22:43:41,216 INFO (SentinelWebMvcConfigurer.java:52)- [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-07-25 22:43:43,924 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2023-07-25 22:43:43,949 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-25 22:43:43,950 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2023-07-25 22:43:43,951 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2023-07-25 22:43:43,954 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-25 22:43:43,954 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-25 22:43:43,954 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2023-07-25 22:43:43,955 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@295d1a45
+2023-07-25 22:43:44,892 INFO (EndpointLinksResolver.java:58)- Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-07-25 22:43:45,072 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-07-25 22:43:45,127 INFO (Undertow.java:120)- starting server: Undertow - 2.3.4.Final
+2023-07-25 22:43:45,145 INFO (Xnio.java:95)- XNIO version 3.8.8.Final
+2023-07-25 22:43:45,163 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.8.Final
+2023-07-25 22:43:45,216 INFO (Version.java:55)- JBoss Threads version 3.5.0.Final
+2023-07-25 22:43:45,293 INFO (UndertowWebServer.java:121)- Undertow started on port(s) 9030 (http)
+2023-07-25 22:43:45,301 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-25 22:43:45,304 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-25 22:43:45,305 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-25 22:43:45,305 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-25 22:43:45,318 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-25 22:43:45,318 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-25 22:43:45,325 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 63d40157-cec1-470c-bebd-89e1a90834ee
+2023-07-25 22:43:45,327 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-25 22:43:45,327 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-25 22:43:45,328 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-25 22:43:45,329 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-25 22:43:45,446 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690296225336_127.0.0.1_60412
+2023-07-25 22:43:45,446 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-25 22:43:45,446 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Notify connected event to listeners.
+2023-07-25 22:43:45,446 INFO (LoggerUtils.java:60)- [63d40157-cec1-470c-bebd-89e1a90834ee] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$659/0x00000008010debf8
+2023-07-25 22:43:45,446 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-25 22:43:45,448 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-news-service with instance Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-25 22:43:45,458 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-news-service 192.168.43.1:9030 register finished
+2023-07-25 22:43:45,595 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2023-07-25 22:43:45,596 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-25 22:43:45,620 INFO (StartupInfoLogger.java:57)- Started NovelNewsApplication in 14.955 seconds (process running for 16.391)
+2023-07-25 22:43:45,636 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-25 22:43:45,637 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service+DEFAULT_GROUP
+2023-07-25 22:43:45,648 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,648 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service, group=DEFAULT_GROUP
+2023-07-25 22:43:45,649 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-common.yml+DEFAULT_GROUP
+2023-07-25 22:43:45,650 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-common.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,651 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-common.yml, group=DEFAULT_GROUP
+2023-07-25 22:43:45,652 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-mysql.yml+DEFAULT_GROUP
+2023-07-25 22:43:45,652 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-mysql.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,653 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-mysql.yml, group=DEFAULT_GROUP
+2023-07-25 22:43:45,654 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-redis.yml+DEFAULT_GROUP
+2023-07-25 22:43:45,655 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-redis.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,656 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-redis.yml, group=DEFAULT_GROUP
+2023-07-25 22:43:45,657 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-rabbitmq.yml+DEFAULT_GROUP
+2023-07-25 22:43:45,658 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,658 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP
+2023-07-25 22:43:45,662 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-dev.yml+DEFAULT_GROUP
+2023-07-25 22:43:45,663 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,663 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP
+2023-07-25 22:43:45,665 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service.yml+DEFAULT_GROUP
+2023-07-25 22:43:45,665 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-25 22:43:45,666 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service.yml, group=DEFAULT_GROUP
+2023-07-26 00:40:16,114 INFO (ServletContextImpl.java:372)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-26 00:40:16,151 INFO (FrameworkServlet.java:532)- Initializing Servlet 'dispatcherServlet'
+2023-07-26 00:40:16,255 INFO (FrameworkServlet.java:554)- Completed initialization in 103 ms
+2023-07-26 00:40:16,785 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-07-26 00:40:17,123 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d1e0f67
+2023-07-26 00:40:17,130 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-07-26 00:40:17,142 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
+2023-07-26 00:40:17,180 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2023-07-26 00:40:17,219 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
+2023-07-26 00:57:04,715 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-26 00:57:04,715 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-26 00:57:04,716 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-26 00:57:04,717 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-26 00:57:04,736 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-26 00:57:04,744 INFO (Undertow.java:259)- stopping server: Undertow - 2.3.4.Final
+2023-07-26 00:57:04,756 INFO (ServletContextImpl.java:372)- Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-26 00:57:04,806 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
+2023-07-26 00:57:04,807 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-26 00:57:04,807 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-26 00:57:04,808 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-26 00:57:04,837 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-26 00:57:04,840 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-news-service with instance: Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-26 00:57:04,850 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-26 00:57:04,855 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-26 00:57:04,856 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-26 00:57:04,857 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-26 00:57:04,857 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-26 00:57:04,857 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-26 00:57:04,858 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-26 00:57:04,858 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-26 00:57:04,858 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-26 00:57:04,858 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-26 00:57:04,859 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-26 00:57:04,859 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-26 00:57:04,860 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-26 00:57:04,860 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-26 00:57:04,860 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-26 00:57:04,861 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-26 00:57:04,861 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-26 00:57:04,861 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@13f5755d[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-26 00:57:04,862 INFO (RpcClient.java:580)- Close current connection 1690296225336_127.0.0.1_60412
+2023-07-26 00:57:04,866 INFO (LoggerUtils.java:60)- [1690296225336_127.0.0.1_60412]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-26 00:57:04,881 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@43cda32c[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1632]
+2023-07-26 00:57:04,881 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@79275b14[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 2664]
+2023-07-26 00:57:04,882 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-26 00:57:04,883 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-26 00:57:04,884 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-26 00:57:04,937 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-07-26 00:57:04,956 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2023-07-26 11:18:43,103 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-26 11:18:43,109 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-26 11:18:43,140 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-26 11:18:43,145 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of f55e3604-47f2-45ba-a276-3646d99b90ef_config-0
+2023-07-26 11:18:43,170 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$651/0x0000000800fc6b68
+2023-07-26 11:18:43,171 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$652/0x0000000800fc6f88
+2023-07-26 11:18:43,173 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-26 11:18:43,174 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-26 11:18:43,187 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-26 11:18:44,472 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690341524197_127.0.0.1_60266
+2023-07-26 11:18:44,473 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Notify connected event to listeners.
+2023-07-26 11:18:44,473 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-26 11:18:44,474 INFO (ClientWorker.java:638)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Connected,notify listen context...
+2023-07-26 11:18:44,475 INFO (LoggerUtils.java:60)- [f55e3604-47f2-45ba-a276-3646d99b90ef_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$671/0x00000008010f6180
+2023-07-26 11:18:44,526 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-26 11:18:44,547 INFO (JvmUtil.java:54)- isMultiInstance:false
+2023-07-26 11:18:44,580 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service] & group[DEFAULT_GROUP]
+2023-07-26 11:18:44,587 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service.yml] & group[DEFAULT_GROUP]
+2023-07-26 11:18:44,594 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-common.yml] & group[DEFAULT_GROUP]
+2023-07-26 11:18:44,600 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-dev.yml] & group[DEFAULT_GROUP]
+2023-07-26 11:18:44,602 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-news-service-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service-common.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-rabbitmq.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-redis.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-mysql.yml,DEFAULT_GROUP'}]
+2023-07-26 11:18:44,612 INFO (SpringApplication.java:638)- The following 2 profiles are active: "common", "dev"
+2023-07-26 11:18:46,351 INFO (RepositoryConfigurationDelegate.java:291)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-26 11:18:46,356 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-26 11:18:46,410 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-07-26 11:18:46,896 INFO (GenericScope.java:282)- BeanFactory id=65745d27-3ec1-3b85-baea-68a2eece2786
+2023-07-26 11:18:48,213 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-07-26 11:18:48,235 INFO (ServletContextImpl.java:372)- Initializing Spring embedded WebApplicationContext
+2023-07-26 11:18:48,236 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 3598 ms
+2023-07-26 11:18:49,427 INFO (Version.java:41)- Redisson 3.19.1
+2023-07-26 11:18:49,945 INFO (ConnectionPool.java:162)- 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-26 11:18:50,006 INFO (ConnectionPool.java:162)- 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-26 11:18:50,633 INFO (SentinelWebMvcConfigurer.java:52)- [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-07-26 11:18:53,174 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-26 11:18:54,132 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2023-07-26 11:18:54,151 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-26 11:18:54,151 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2023-07-26 11:18:54,153 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2023-07-26 11:18:54,155 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-26 11:18:54,155 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-26 11:18:54,156 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2023-07-26 11:18:54,156 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5f2312f3
+2023-07-26 11:18:55,997 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-26 11:18:56,251 INFO (EndpointLinksResolver.java:58)- Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-07-26 11:18:56,501 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-07-26 11:18:56,585 INFO (Undertow.java:120)- starting server: Undertow - 2.3.4.Final
+2023-07-26 11:18:56,601 INFO (Xnio.java:95)- XNIO version 3.8.8.Final
+2023-07-26 11:18:56,626 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.8.Final
+2023-07-26 11:18:56,693 INFO (Version.java:55)- JBoss Threads version 3.5.0.Final
+2023-07-26 11:18:56,820 INFO (UndertowWebServer.java:121)- Undertow started on port(s) 9030 (http)
+2023-07-26 11:18:56,828 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-26 11:18:56,829 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-26 11:18:56,831 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-26 11:18:56,832 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-26 11:18:56,847 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-26 11:18:56,848 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-26 11:18:56,855 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 668328c9-1828-4f4c-bcf8-9b2cc3c99d4a
+2023-07-26 11:18:56,859 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-26 11:18:56,859 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-26 11:18:56,860 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-26 11:18:56,872 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-26 11:18:57,030 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690341536900_127.0.0.1_60342
+2023-07-26 11:18:57,031 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Notify connected event to listeners.
+2023-07-26 11:18:57,031 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-26 11:18:57,032 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-26 11:18:57,032 INFO (LoggerUtils.java:60)- [668328c9-1828-4f4c-bcf8-9b2cc3c99d4a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$671/0x00000008010f6180
+2023-07-26 11:18:57,035 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-news-service with instance Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-26 11:18:57,056 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-news-service 192.168.43.1:9030 register finished
+2023-07-26 11:18:58,285 INFO (InetUtils.java:170)- Cannot determine local hostname
+2023-07-26 11:18:58,286 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2023-07-26 11:18:58,287 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-26 11:18:58,317 INFO (StartupInfoLogger.java:57)- Started NovelNewsApplication in 20.264 seconds (process running for 21.296)
+2023-07-26 11:18:58,324 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-26 11:18:58,325 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service+DEFAULT_GROUP
+2023-07-26 11:18:58,337 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,338 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service, group=DEFAULT_GROUP
+2023-07-26 11:18:58,339 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-common.yml+DEFAULT_GROUP
+2023-07-26 11:18:58,339 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-common.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,340 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-common.yml, group=DEFAULT_GROUP
+2023-07-26 11:18:58,342 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-mysql.yml+DEFAULT_GROUP
+2023-07-26 11:18:58,342 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-mysql.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,342 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-mysql.yml, group=DEFAULT_GROUP
+2023-07-26 11:18:58,343 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-redis.yml+DEFAULT_GROUP
+2023-07-26 11:18:58,344 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-redis.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,344 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-redis.yml, group=DEFAULT_GROUP
+2023-07-26 11:18:58,345 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-rabbitmq.yml+DEFAULT_GROUP
+2023-07-26 11:18:58,345 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,345 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP
+2023-07-26 11:18:58,346 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-dev.yml+DEFAULT_GROUP
+2023-07-26 11:18:58,346 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,347 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP
+2023-07-26 11:18:58,347 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service.yml+DEFAULT_GROUP
+2023-07-26 11:18:58,347 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 11:18:58,348 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service.yml, group=DEFAULT_GROUP
+2023-07-26 11:18:58,613 INFO (ServletContextImpl.java:372)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-26 11:18:58,614 INFO (FrameworkServlet.java:532)- Initializing Servlet 'dispatcherServlet'
+2023-07-26 11:18:58,619 INFO (FrameworkServlet.java:554)- Completed initialization in 4 ms
+2023-07-26 11:18:58,658 INFO (AbstractConnectionFactory.java:630)- Attempting to connect to: [47.120.9.90:5672]
+2023-07-26 11:18:59,037 INFO (AbstractConnectionFactory.java:581)- Created new connection: rabbitConnectionFactory#517594dd:0/SimpleConnection@6a27d8a2 [delegate=amqp://yisheng@47.120.9.90:5672/novel, localPort=60373]
+2023-07-26 11:18:59,387 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-07-26 11:18:59,998 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ae3ffdd
+2023-07-26 11:19:00,014 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-07-26 12:54:20,451 WARN (HikariPool.java:804)- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m50s219ms986µs).
+2023-07-26 12:54:38,425 WARN (ForgivingExceptionHandler.java:115)- An unexpected connection driver error occurred (Exception message: Connection reset)
+2023-07-26 12:56:27,349 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,category_id,category_name,source_name,title,create_time,update_time FROM news_info ORDER BY create_time DESC limit 2
+2023-07-26 12:56:27,386 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 
+2023-07-26 12:56:27,436 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 2
+2023-07-26 13:04:45,907 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-26 13:04:45,908 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-26 13:04:45,908 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-26 13:04:45,909 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-26 13:04:46,010 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-26 13:04:46,016 INFO (Undertow.java:259)- stopping server: Undertow - 2.3.4.Final
+2023-07-26 13:04:46,040 INFO (ServletContextImpl.java:372)- Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-26 13:04:46,092 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
+2023-07-26 13:04:46,093 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-26 13:04:46,093 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-26 13:04:46,094 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-26 13:04:46,122 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-26 13:04:46,125 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-news-service with instance: Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-26 13:04:46,129 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-26 13:04:46,132 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-26 13:04:46,132 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-26 13:04:46,133 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-26 13:04:46,133 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-26 13:04:46,133 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-26 13:04:46,133 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-26 13:04:46,133 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-26 13:04:46,133 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-26 13:04:46,133 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-26 13:04:46,133 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-26 13:04:46,134 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-26 13:04:46,134 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-26 13:04:46,134 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-26 13:04:46,134 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-26 13:04:46,134 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-26 13:04:46,134 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-26 13:04:46,136 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5a85eb5f[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-26 13:04:46,137 INFO (RpcClient.java:580)- Close current connection 1690341536900_127.0.0.1_60342
+2023-07-26 13:04:46,139 INFO (LoggerUtils.java:60)- [1690341536900_127.0.0.1_60342]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-26 13:04:46,150 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@930a12d[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 465]
+2023-07-26 13:04:46,150 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@50b344ca[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 749]
+2023-07-26 13:04:46,151 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-26 13:04:46,152 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-26 13:04:46,152 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-26 13:04:46,189 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-07-26 13:04:46,193 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2023-07-26 13:56:50,872 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-26 13:56:50,874 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-07-26 13:56:50,890 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\yisheng\nacos\config
+2023-07-26 13:56:50,892 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of f4e50004-2079-446c-abe7-34c51e3448a6_config-0
+2023-07-26 13:56:50,905 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$651/0x0000000800fb7d70
+2023-07-26 13:56:50,905 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$652/0x0000000800fb8200
+2023-07-26 13:56:50,906 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-07-26 13:56:50,906 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-07-26 13:56:50,914 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-26 13:56:51,773 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690351011559_127.0.0.1_63815
+2023-07-26 13:56:51,774 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Notify connected event to listeners.
+2023-07-26 13:56:51,775 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-26 13:56:51,775 INFO (ClientWorker.java:638)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Connected,notify listen context...
+2023-07-26 13:56:51,775 INFO (LoggerUtils.java:60)- [f4e50004-2079-446c-abe7-34c51e3448a6_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$671/0x0000000801127dc0
+2023-07-26 13:56:51,813 INFO (Limiter.java:62)- limitTime:5.0
+2023-07-26 13:56:51,825 INFO (JvmUtil.java:54)- isMultiInstance:false
+2023-07-26 13:56:51,848 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service] & group[DEFAULT_GROUP]
+2023-07-26 13:56:51,854 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service.yml] & group[DEFAULT_GROUP]
+2023-07-26 13:56:51,859 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-common.yml] & group[DEFAULT_GROUP]
+2023-07-26 13:56:51,865 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-news-service-dev.yml] & group[DEFAULT_GROUP]
+2023-07-26 13:56:51,867 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-news-service-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service-common.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-news-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-rabbitmq.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-redis.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-mysql.yml,DEFAULT_GROUP'}]
+2023-07-26 13:56:51,876 INFO (SpringApplication.java:638)- The following 2 profiles are active: "common", "dev"
+2023-07-26 13:56:53,598 INFO (RepositoryConfigurationDelegate.java:291)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-26 13:56:53,601 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-26 13:56:53,625 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-07-26 13:56:53,943 INFO (GenericScope.java:282)- BeanFactory id=65745d27-3ec1-3b85-baea-68a2eece2786
+2023-07-26 13:56:55,319 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-07-26 13:56:55,367 INFO (ServletContextImpl.java:372)- Initializing Spring embedded WebApplicationContext
+2023-07-26 13:56:55,368 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 3474 ms
+2023-07-26 13:56:56,910 INFO (Version.java:41)- Redisson 3.19.1
+2023-07-26 13:56:57,397 INFO (ConnectionPool.java:162)- 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-26 13:56:57,449 INFO (ConnectionPool.java:162)- 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-07-26 13:56:58,047 INFO (SentinelWebMvcConfigurer.java:52)- [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-07-26 13:56:59,900 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2023-07-26 13:56:59,911 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-26 13:56:59,911 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2023-07-26 13:56:59,912 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2023-07-26 13:56:59,914 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-26 13:56:59,915 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-26 13:56:59,915 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2023-07-26 13:56:59,915 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@65a42136
+2023-07-26 13:57:00,482 INFO (EndpointLinksResolver.java:58)- Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-07-26 13:57:00,600 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-07-26 13:57:00,634 INFO (Undertow.java:120)- starting server: Undertow - 2.3.4.Final
+2023-07-26 13:57:00,644 INFO (Xnio.java:95)- XNIO version 3.8.8.Final
+2023-07-26 13:57:00,653 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.8.Final
+2023-07-26 13:57:00,678 INFO (Version.java:55)- JBoss Threads version 3.5.0.Final
+2023-07-26 13:57:00,725 INFO (UndertowWebServer.java:121)- Undertow started on port(s) 9030 (http)
+2023-07-26 13:57:00,729 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-07-26 13:57:00,730 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-07-26 13:57:00,730 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-07-26 13:57:00,731 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-07-26 13:57:00,738 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-07-26 13:57:00,738 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-07-26 13:57:00,742 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of eaabf803-58ad-449a-a548-22b0a3cb308c
+2023-07-26 13:57:00,744 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-26 13:57:00,744 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-26 13:57:00,744 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-26 13:57:00,745 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-07-26 13:57:00,874 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1690351020749_127.0.0.1_63902
+2023-07-26 13:57:00,874 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-26 13:57:00,874 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Notify connected event to listeners.
+2023-07-26 13:57:00,874 INFO (LoggerUtils.java:60)- [eaabf803-58ad-449a-a548-22b0a3cb308c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$671/0x0000000801127dc0
+2023-07-26 13:57:00,874 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-07-26 13:57:00,874 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-news-service with instance Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-26 13:57:00,885 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-news-service 192.168.43.1:9030 register finished
+2023-07-26 13:57:00,967 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2023-07-26 13:57:00,967 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-26 13:57:00,981 INFO (StartupInfoLogger.java:57)- Started NovelNewsApplication in 11.735 seconds (process running for 12.384)
+2023-07-26 13:57:00,986 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-07-26 13:57:00,987 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service+DEFAULT_GROUP
+2023-07-26 13:57:00,993 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:00,993 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service, group=DEFAULT_GROUP
+2023-07-26 13:57:00,993 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-common.yml+DEFAULT_GROUP
+2023-07-26 13:57:00,994 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-common.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:00,994 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-common.yml, group=DEFAULT_GROUP
+2023-07-26 13:57:00,995 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-mysql.yml+DEFAULT_GROUP
+2023-07-26 13:57:00,995 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-mysql.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:00,995 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-mysql.yml, group=DEFAULT_GROUP
+2023-07-26 13:57:00,996 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-redis.yml+DEFAULT_GROUP
+2023-07-26 13:57:00,997 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-redis.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:00,997 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-redis.yml, group=DEFAULT_GROUP
+2023-07-26 13:57:00,999 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-rabbitmq.yml+DEFAULT_GROUP
+2023-07-26 13:57:00,999 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:00,999 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP
+2023-07-26 13:57:01,000 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service-dev.yml+DEFAULT_GROUP
+2023-07-26 13:57:01,000 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:01,000 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service-dev.yml, group=DEFAULT_GROUP
+2023-07-26 13:57:01,001 INFO (ClientWorker.java:379)- [fixed-127.0.0.1_8848] [subscribe] novel-news-service.yml+DEFAULT_GROUP
+2023-07-26 13:57:01,001 INFO (CacheData.java:197)- [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=novel-news-service.yml, group=DEFAULT_GROUP, cnt=1
+2023-07-26 13:57:01,001 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-news-service.yml, group=DEFAULT_GROUP
+2023-07-26 13:57:01,101 INFO (ServletContextImpl.java:372)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-26 13:57:01,102 INFO (FrameworkServlet.java:532)- Initializing Servlet 'dispatcherServlet'
+2023-07-26 13:57:01,105 INFO (FrameworkServlet.java:554)- Completed initialization in 3 ms
+2023-07-26 13:57:01,130 INFO (AbstractConnectionFactory.java:630)- Attempting to connect to: [47.120.9.90:5672]
+2023-07-26 13:57:01,460 INFO (AbstractConnectionFactory.java:581)- Created new connection: rabbitConnectionFactory#751eb9a9:0/SimpleConnection@160ffea9 [delegate=amqp://yisheng@47.120.9.90:5672/novel, localPort=63905]
+2023-07-26 13:57:01,768 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-07-26 13:57:01,981 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b9cb572
+2023-07-26 13:57:01,984 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-07-26 14:14:45,114 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-26 14:14:45,114 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-26 14:14:45,114 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-26 14:14:45,114 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-07-26 14:14:45,116 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-26 14:14:45,117 INFO (Undertow.java:259)- stopping server: Undertow - 2.3.4.Final
+2023-07-26 14:14:45,124 INFO (ServletContextImpl.java:372)- Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-26 14:14:45,131 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
+2023-07-26 14:14:45,131 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-26 14:14:45,131 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-26 14:14:45,131 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-26 14:14:45,285 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-07-26 14:14:45,285 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-news-service with instance: Instance{instanceId='null', ip='192.168.43.1', port=9030, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-26 14:14:45,288 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-07-26 14:14:45,289 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-07-26 14:14:45,290 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-26 14:14:45,290 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-26 14:14:45,290 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-07-26 14:14:45,290 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-07-26 14:14:45,290 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-07-26 14:14:45,290 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-07-26 14:14:45,290 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-07-26 14:14:45,290 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-26 14:14:45,290 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-26 14:14:45,290 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-07-26 14:14:45,290 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-07-26 14:14:45,291 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-26 14:14:45,291 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-07-26 14:14:45,291 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-07-26 14:14:45,291 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-07-26 14:14:45,291 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5c737cbc[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-26 14:14:45,291 INFO (RpcClient.java:580)- Close current connection 1690351020749_127.0.0.1_63902
+2023-07-26 14:14:45,292 INFO (LoggerUtils.java:60)- [1690351020749_127.0.0.1_63902]Ignore complete event,isRunning:false,isAbandon=false
+2023-07-26 14:14:45,295 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@7ac49136[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 225]
+2023-07-26 14:14:45,295 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@74f9ed80[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 354]
+2023-07-26 14:14:45,295 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-07-26 14:14:45,295 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-07-26 14:14:45,295 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-07-26 14:14:45,322 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-07-26 14:14:45,327 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.

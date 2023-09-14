@@ -1,0 +1,32 @@
+server:
+  port: 9050
+spring:
+  profiles:
+    include: common
+    active: dev
+
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8080/xxl-job-admin
+    executor:
+      ip: 127.0.0.1
+      port: 9998
+      appname: xxl-job-executor-novel
+      logpath: logs/xxl-job/jobhandler
+      address: 127.0.0.1:9998
+      logretentiondays: 30
+
+  ### 执行器端口号 [选填]：小于等于0则自动获取；默认端口为9999，单机部署多个执行器时，注意要配置不同执行器端口；
+
+    ### xxl-job, access token
+    accessToken: 123
+
+management:
+  # 端点启用配置
+  endpoint:
+    logfile:
+      # 启用返回日志文件内容的端点
+      enabled: true
+      # 外部日志文件路径
+      external-file: logs/novel-search-service.log

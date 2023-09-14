@@ -1,0 +1,8 @@
+
+X	java:S125-"<This block of commented-out lines of code should be removed.(Ãã¾ª8ÍÅáŒ˜1
+n
+java:S1128"QRemove this unused import 'co.elastic.clients.elasticsearch.ElasticsearchClient'.(À×©é8åÅáŒ˜1
+]
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ8åÅáŒ˜1
+…
+java:S1128"cRemove this unused import 'org.springframework.boot.autoconfigure.condition.ConditionalOnProperty'.(Á™©¾üÿÿÿÿ8åÅáŒ˜1
